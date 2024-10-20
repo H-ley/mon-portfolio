@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Ashley NAKA",
-  title: "Salut à tous, Je suis Ashley NAKA",
+  title: "Salut à tous, Je suis Ashley!",
   subTitle: emoji(
-    "Une jeune étudiante rigoureuse, dynamique et passionnée de data, de chiffres mais aussi de développement web et mobile 🚀. Je suis ouverte à toutes nouvelles opportunités afin de gagner en expérience et affiner ma posture professionnelle "
+    "Une jeune étudiante dynamique et passionnée de data, de chiffres mais aussi de développement web et mobile 🚀. Ambitieuse de prétendre à des postes de data analyst, je suis ouverte à toutes nouvelles opportunités afin de gagner en expérience et affiner ma posture professionnelle "
   ),
   resumeLink:
     "https://drive.google.com/file/d/1P8m3YRzg5rWrr11jKIi1YBO8lc2mefpy/view?usp=sharing", // Set to empty to hide the button
@@ -53,7 +53,15 @@ const skillsSection = {
     emoji("⚡ Bonne aptitude rédactionnelle avec Microsoft Word, Adobe Acrobat"),
     emoji(
       "⚡ Leadership naturel et aisance en gestion de projet avec des outils comme Trello"
-    )
+    ),
+    emoji(
+      "⚡ Aisance orale"),
+    emoji(
+      "⚡ Autonomie et Rigueur"),
+      emoji(
+      "⚡ Adaptabilité et Compétitivité"),
+    emoji(
+      "⚡ Ouverture d'Esprit"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -110,12 +118,12 @@ const educationInfo = {
     {
       schoolName: "Esaip Saint-Barthélémy d'Anjou",
       logo: require("./assets/images/esaip.png"),
-      subHeader: "Ingénieur Informatique et Réseaux Majeure Big Data",
+      subHeader: "Cycle Ingénieur Informatique et Réseaux Majeure Big Data",
       duration: "Septembre 2023 - Juillet 2026",
     },
     {
       schoolName: "Epitech",
-      logo: require("./assets/images/epitech.png"),
+      logo: require("./assets/images/epi.png"),
       subHeader: "Bachelor en Expertise des Technologies de l'Information",
       duration: "Septembre 2020 - Juillet 2023",
     }
@@ -153,7 +161,7 @@ const workExperiences = {
       company: "Les Restos du Cœur",
       companylogo: require("./assets/images/rdc.png"),
       date: "Novembre 2024 – Aujourd'hui",
-      desc: "Collecte de denrées alimentaires pour les personnes en situation de précarité."
+      desc: "Collecte de denrées alimentaires dans les grandes enseignes comme Lidl, Action, Carrefour pour les personnes en situation de précarité. Action de lutte contre la pauvreté et l'exclusion sur toutes ses formes"
     },
     {
       role: "Stagiaire professionnelle",
@@ -174,7 +182,7 @@ const workExperiences = {
       company: "SiemTechnology",
       companylogo: require("./assets/images/siem.png"),
       date: "Août 2021 – Décembre 2021",
-      desc: "Conception de trois sites web dynamiques."
+      desc: "Conception de trois sites web dynamiques (Gestion Hospitalière, E-commerce textile, E-learning)."
     },
   ]
 };
@@ -213,6 +221,17 @@ const bigProjects = {
         {
           name: "Visiter le projet sur Github",
           url: "https://github.com/H-ley/Matchstick"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/irc.png"),
+      projectName: "Internet Relay Chat",
+      projectDesc: "Créer un chat entre personnes et rafraîchir en temps réel. Avec certaines commandes, nous pouvons créer, gérer une chaîne, voir tous les utilisateurs, etc.",
+      footerLink: [
+        {
+          name: "Visiter le projet sur Github",
+          url: "https://github.com/H-ley/Internet-Relay-Chat"
         }
       ]
     }
